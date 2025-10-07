@@ -1,0 +1,14 @@
+<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" fill="#111827" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+    <switch>
+        <foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"/>
+        <g i:extraneous="self">
+            <g>
+                <path d="M25.9,19h5.1c1.5,0,2.7-1.2,2.7-2.7V5.2c0-1.5-1.2-2.7-2.7-2.7h-5.1c-1.5,0-2.7,1.2-2.7,2.7v11.2     C23.2,17.8,24.4,19,25.9,19z"/>
+                <path d="M59,19h5.1c1.5,0,2.7-1.2,2.7-2.7V5.2c0-1.5-1.2-2.7-2.7-2.7H59c-1.5,0-2.7,1.2-2.7,2.7v11.2C56.4,17.8,57.6,19,59,19z"/>
+                <path d="M86,22.3c0-6.5-5.3-11.8-11.8-11.8h-2.2v5.8c0,4.4-3.6,8-8,8H59c-4.4,0-8-3.6-8-8v-5.8H39v5.8c0,4.4-3.6,8-8,8h-5     c-4.4,0-8-3.6-8-8v-5.8h-2.2c-6.5,0-11.8,5.3-11.8,11.8v8.6H86V22.3z"/>
+                <path d="M75.2,50.4c3.9,0,7.6,0.8,10.9,2.4V36.2H3.9v35.6c0,6.5,5.3,11.8,11.8,11.8h34.2c-0.6-2.2-1-4.6-1-7     C48.9,62.1,60.7,50.4,75.2,50.4z"/>
+                <path d="M75.2,55.7c-11.5,0-20.9,9.4-20.9,20.9s9.4,20.9,20.9,20.9c11.5,0,20.9-9.4,20.9-20.9S86.7,55.7,75.2,55.7z M83.3,79.3     h-8.1c-1.5,0-2.7-1.2-2.7-2.7V64.8c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7v9.1h5.4c1.5,0,2.7,1.2,2.7,2.7     C86,78.1,84.8,79.3,83.3,79.3z"/>
+            </g>
+        </g>
+    </switch>
+</svg>

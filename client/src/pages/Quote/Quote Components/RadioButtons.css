@@ -1,0 +1,53 @@
+/* Base styles */
+.radio-label {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+}
+
+.radio-label input:checked + .radio-button {
+    background-color: #f97316;
+    color: #fff7ed;
+}
+
+.radio-button {
+    display: inline-block;
+    padding: 4px 12px; /* Adjust padding for larger screens */
+    border: 1px solid #f97316;
+    color: #f97316;
+    background-color: #fff7ed;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Adding specific classes for first and last child */
+.radio-label.first .radio-button {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.radio-label.last .radio-button {
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .radio-button {
+        padding: 4px 12px; /* Reduced padding for medium screens */
+        font-size: 0.875rem; /* Adjust font size for medium screens */
+    }
+    
+    /* Stack radio buttons vertically for small screens */
+    .radio-label {
+        display: block;
+        margin-bottom: 8px; /* Add spacing between stacked buttons */
+    }
+
+}
+
+@media (max-width: 480px) {
+    .radio-button {
+        padding: 4px 8px; /* Further reduced padding for small screens */
+        font-size: 0.75rem; /* Further reduced font size for small screens */
+    }
+}
