@@ -22,4 +22,5 @@ const CheckpointSchema = new mongoose.Schema({
     }]
 }, { timestamps: true });
 
-module.exports = mongoose.model('Checkpoint', CheckpointSchema);
+module.exports = mongoose.model('Checkpoint', CheckpointSchema); 
+
