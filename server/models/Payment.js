@@ -10,20 +10,4 @@ const paymentSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  paymentStatus: {
-    type: String,
-    required: true
-  },
-  payerEmail: {
-    type: String
-  },
-  paidDate: {
-    type: Date
-  }
-}, {
-  timestamps: true
-});
 
-const Payment = mongoose.model('Payment', paymentSchema);
-
-module.exports = Payment;
