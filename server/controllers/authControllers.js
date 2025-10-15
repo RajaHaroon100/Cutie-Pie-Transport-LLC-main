@@ -931,3 +931,32 @@ const getIpAgreement = async (req, res) => {
     }
 }
 
+module.exports = {
+    CreateUser,
+    adminLogin,
+    sendMessage,
+    placeOrder,
+    getOrderRequests,
+    getPendingOrders,
+    getActiveOrders,
+    getCompletedOrders,
+    rejectOrder,
+    acceptOrder,
+    updateOrder,
+    addCheckpoints,
+    getCheckpoints,
+    updateCheckpoints,
+    moveToActiveOrders,
+    moveToCompletedOrders,
+    getCustomerCheckpoints,
+    getCustomerOrder,
+    getPayments,
+    changePaymentStatus,
+    getCustomerPayment,
+    addPaymentEmail,
+    getNotifications,
+    deleteNotification,
+    squarePayment,
+    acceptIpAgreement,
+    getIpAgreement
+};
