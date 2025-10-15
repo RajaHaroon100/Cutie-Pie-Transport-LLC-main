@@ -11,63 +11,6 @@ require('dotenv').config();
 const { hashPassword, comparePassword} = require('../helpers/auth')
 const { generateToken } = require('../helpers/jwtUtils');
 
-const { Client } = require('square');
-const { randomUUID } = require('crypto');
-
-const CreateUser = async (req, res) => {
-    const { username, password } = req.body;
-
-    if (!username || !password) {
-        return res.status(400).json({ message: 'Username and password are required' });
-    }
-
-    try {
-        // Check if the user already exists
-        const existingUser = await User.findOne({ username });
-        if (existingUser) {
-            return res.status(400).json({ message: 'Username already exists' });
-        }
-
-        // Encrypt the password
-        const hashedPassword = await hashPassword(password)
-
-        // Create a new user
-        const newUser = new User({ username, password: hashedPassword });
-        await newUser.save();
-
-        res.status(201).json({ message: 'User created successfully' });
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: 'Internal server error' });
-    }
-};
-
-const adminLogin = async (req, res) => {
-    const { username, password } = req.body;
-
-    if (!username || !password) {
-        return res.status(400).json({ message: 'Username and password are required' });
-    }
-
-    try {
-        const user = await User.findOne({ username });
-        if (!user) {
-            return res.status(400).json({ message: 'Invalid username or password' });
-        }
-
-        const isMatch = await comparePassword(password, user.password);
-        if (!isMatch) {
-            return res.status(400).json({ message: 'Invalid username or password' });
-        }
-
-        const token = generateToken(user);
-        res.status(200).json({ message: 'Login successful', token });
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: 'Internal server error' });
-    }
-};
-
 const sendMessage = async (req, res) => {
     const { firstName, lastName, phoneNumber, email, message } = req.body;
 
