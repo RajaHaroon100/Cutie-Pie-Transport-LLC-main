@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProgressBar.css';
 
+
 import EquipmentTypeImg from '../../../../assets/SVGs/drop-trailer.svg'
 import LocationImg from '../../../../assets/SVGs/location-colored.svg'
 import BoxImg from '../../../../assets/SVGs/shipment-box.svg'
@@ -44,7 +45,7 @@ const ProgressBar = ({ currentStep, currentSubStep, stepConfig }) => {
                                 ></div>
                             ))}
                         </div>
-                    )}
+                )}
 
                     {/* Connector Line */}
                     {stepIndex < totalSteps - 1 && (
