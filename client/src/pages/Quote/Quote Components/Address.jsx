@@ -38,7 +38,6 @@ const excludedLocations = [
     "Hawaii" // Note that Hawaii is a U.S. state but isolated geographically
 ];
 
-
 export default function Address({ country, onAddressChange, shippingAddress, onCoordinatesChange }) {
     const [address, setAddress] = useState('');
     const [coordinates, setCoordinates] = useState({ latitude: null, longitude: null });
