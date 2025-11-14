@@ -11,7 +11,7 @@ const AddItemModule = ({ availableLength, availableWidth, availableHeight, avail
     const [condition, setCondition] = useState('new');
     const [errors, setErrors] = useState({});
 
-    useEffect(() => {
+        useEffect(() => {
         if (itemToEdit) {
             setDescription(itemToEdit.description);
             setPackaging(itemToEdit.packaging);
