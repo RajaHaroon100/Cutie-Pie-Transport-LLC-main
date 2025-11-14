@@ -5,8 +5,6 @@ import { toast } from 'react-hot-toast';
 import { FaPlusCircle, FaQuestionCircle, FaInfoCircle } from 'react-icons/fa';
 import ItemSVG from '../../../assets/SVGs/item-package.svg'
 
-
-
 const AddItems = ( { setTrailerConfig, onItemsChange, onVolumeChange, onWeightChange, setAddedItems, setAddedVolume, setAddedWeight } ) => {
   const TRAILER_CONFIG = {
     length: setTrailerConfig.length, // in inches
