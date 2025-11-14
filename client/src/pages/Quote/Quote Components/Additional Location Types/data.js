@@ -1,3 +1,4 @@
+
 import NoDockSVG from '../../../../assets/SVGs/no-dock.svg'
 import SelfStorageSVG from '../../../../assets/SVGs/self-storage.svg'
 import SchoolSVG from '../../../../assets/SVGs/school.svg'
