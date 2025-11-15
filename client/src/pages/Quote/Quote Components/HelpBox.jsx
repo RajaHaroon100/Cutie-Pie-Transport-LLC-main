@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 
 Modal.setAppElement('#root');
 
-const HelpBox = ({ isOpen, onClose, helpbox, title, svg }) => (
+ const HelpBox = ({ isOpen, onClose, helpbox, title, svg }) => (
     <Modal
         isOpen={isOpen}
         onRequestClose={onClose}
