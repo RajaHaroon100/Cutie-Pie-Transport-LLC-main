@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaQuestionCircle } from 'react-icons/fa';
 import HelpBox from './HelpBox';
 
-export default function QuoteComponentCard({ svg, title, value, description, helpbox, isSelected, onCardClick }) {
+ export default function QuoteComponentCard({ svg, title, value, description, helpbox, isSelected, onCardClick }) {
     
     const [isHelpBoxOpen, setIsHelpBoxOpen] = useState(false);
 
