@@ -3,7 +3,7 @@ import FreightClassSVG from '../../../assets/SVGs/freight-class.svg';
 import { FREIGHT_CLASS } from '../LTL Quote/data';
 import HelpBox from './HelpBox';
 
-export default function FreightClass({ setAddedItems, onFreightClassChange }) {
+ export default function FreightClass({ setAddedItems, onFreightClassChange }) {
     const [items, setItems] = useState([]);
     const [freightClasses, setFreightClasses] = useState([]);
     const [editMode, setEditMode] = useState(false);
