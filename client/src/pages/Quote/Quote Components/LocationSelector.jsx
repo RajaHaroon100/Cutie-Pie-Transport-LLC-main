@@ -9,7 +9,7 @@ import LocationType from './LocationType';
 import { FaExclamation } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-export default function ShippingFrom({ quoteType, selectorType, selectedShippingCountry, shippingAddress, additionalShippingLocations, setLocationType, onCountryChange, onAddressChange, onAdditionalLocationsChange, onLocationTypeChange, onCoordinatesChange }) {
+ export default function ShippingFrom({ quoteType, selectorType, selectedShippingCountry, shippingAddress, additionalShippingLocations, setLocationType, onCountryChange, onAddressChange, onAdditionalLocationsChange, onLocationTypeChange, onCoordinatesChange }) {
     const [selectedCountry, setSelectedCountry] = useState('United States');
     const [address, setAddress] = useState('');
     const [coordinates, setCoordinates] = useState({ latitude: null, longitude: null });
