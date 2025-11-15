@@ -3,7 +3,7 @@ import { LOCATION_TYPE } from "../LTL Quote/data"
 import QuoteComponentCard from "./QuoteComponentCard";
 import { FaExclamation } from "react-icons/fa";
 
-export default function LocationType({ onLocationTypeChange, setLocationType }) {
+ export default function LocationType({ onLocationTypeChange, setLocationType }) {
     const [selectedLocationType, setSelectedLocationType] = useState("");
 
     const onCardClick = (type) => {
