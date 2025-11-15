@@ -1,6 +1,5 @@
 export const TERMS = `
     <h2 style="font-weight: bold; font-size: 24px; text-align: center; padding-bottom: 20px;">Terms and Conditions</h2>
-    
     <div style="padding-bottom: 10px;">
         <p style="font-weight: bold;">1. Accuracy of Information:</p>
         <p style="padding-left: 14px; text-align: justify;"> 
