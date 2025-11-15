@@ -5,7 +5,7 @@ import { FaExclamation, FaCalendar } from 'react-icons/fa';
 import 'flatpickr/dist/themes/material_orange.css';
 import { Link } from 'react-router-dom';
 
-export default function DateSelector({ selectorType, onDateChange, setDate, pickupDate }) {
+ export default function DateSelector({ selectorType, onDateChange, setDate, pickupDate }) {
     const [selectedDate, setSelectedDate] = useState(null);
     const [warning, setWarning] = useState('');
 
