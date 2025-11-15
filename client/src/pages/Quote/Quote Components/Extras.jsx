@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import '../Quote Components/RadioButtons.css'
 
-export default function Extras( {onContainAlcohol, setAlcohol, disableButton} ) {
+ export default function Extras( {onContainAlcohol, setAlcohol, disableButton} ) {
     const [isTradeShow, setIsTradeShow] = useState('no');
     const [containHazardous, setContainHazardous] = useState('no');
     const [containAlcohol, setContainAlcohol] = useState('no');
@@ -156,8 +156,8 @@ export default function Extras( {onContainAlcohol, setAlcohol, disableButton} ) 
                             </p>
                         </div>
                     }
-                </div>
-            </div>
-        </div>
+                 </div>
+             </div>
+         </div>
     );
 }
