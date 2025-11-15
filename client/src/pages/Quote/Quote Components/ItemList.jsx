@@ -2,7 +2,7 @@ import React from "react";
 import { FaPen } from "react-icons/fa";
 import { FaTrash } from "react-icons/fa";
 
-const ItemList = ({ items, onEditItem, onRemoveItem, onEditClick }) => {
+ const ItemList = ({ items, onEditItem, onRemoveItem, onEditClick }) => {
   return (
     <div>
       {(!items || items.length === 0) ? (
