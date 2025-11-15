@@ -13,7 +13,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './QuoteCalculation.css';
 import warningSVG from '../../assets/SVGs/danger.svg';
 
-export default function QuoteCalculation() {
+ export default function QuoteCalculation() {
     const location = useLocation();
     const formData = location.state;
 
