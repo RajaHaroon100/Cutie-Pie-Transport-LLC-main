@@ -19,8 +19,7 @@ export const FTL_RATES = {
     aboveWeightFee: 25, //per 1000 lbs
     sameDayDeliveryFee: 100,
 }
-
-export const LTL_RATES = {
+ export const LTL_RATES = {
     canadaRPM: 0.90,
     usRPM: 0.77,
     canadaSameCity: 250,
